@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle at top, #2a0037, #0a0012);
+  color: white;
+  text-align: center;
+}
+
+.page {
+  padding: 20px;
+}
+
+.card-glow {
+  width: 90%;
+  margin: auto;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255, 0, 153, 0.15);
+  box-shadow: 0 0 35px rgba(255, 0, 200, 0.6);
+}
+
+.profile-wrap {
+  margin-top: 20px;
+}
+
+.profile-glow {
+  width: 160px;
+  height: 160px;
+  margin: auto;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ff0099, #66004d);
+  box-shadow: 0 0 40px #ff0099;
+}
+
+.profile {
+  width: 150px;
+  border-radius: 50%;
+  margin-top: -155px;
+}
+
+.badge {
+  width: 45px;
+  height: 45px;
+  margin: auto;
+  margin-top: -25px;
+  background: #ff0084;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  color: white;
+}
+
+.title {
+  margin-top: 10px;
+  color: #ff4db8;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #ff80d4;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.desc {
+  padding: 10px 20px;
+  color: #f7d7ff;
+}
+
+.cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 18px;
+  padding: 15px 30px;
+  background: linear-gradient(45deg, #ff0066, #ff4ddb);
+  border-radius: 30px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 18px #ff29c3;
+}
+
+.cta:hover {
+  box-shadow: 0 0 35px #ff00aa;
+}
+
+.cta-icon {
+  font-size: 22px;
+}
+
+.cta-text {
+  font-size: 16px;
+}
+
+.redirect {
+  margin-top: 20px;
+  color: #ff66cc;
+  font-size: 16px;
+}
+
+.footer {
+  margin-top: 10px;
+  color: #e6b3ff;
+  padding: 0 20px;
+}
